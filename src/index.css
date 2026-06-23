@@ -1,0 +1,27 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: #07080C;
+  color: #E4E8EF;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+button, input { font-family: inherit; color: inherit; }
+input[type='number'] { -moz-appearance: textfield; }
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button { -webkit-appearance: none; }
+input[type='range'] {
+  -webkit-appearance: none; appearance: none;
+  height: 3px; background: #181D2A; border-radius: 2px; outline: none;
+}
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 18px; height: 18px;
+  background: #4A98DF; border-radius: 50%; cursor: pointer; border: 2px solid #07080C;
+}
+input[type='range']::-moz-range-thumb {
+  width: 18px; height: 18px;
+  background: #4A98DF; border-radius: 50%; cursor: pointer; border: 2px solid #07080C;
+}
+input::placeholder { color: #2C3848; }
+::-webkit-scrollbar { width: 0; height: 0; }
